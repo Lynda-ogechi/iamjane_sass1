@@ -1,0 +1,145 @@
+@import url(c:\Users\OGECHI\Documents\codegaminators 6.0\iamjane_sass\style\scss\bootstrap-grid.css);
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #282828;
+  color: #e5f4f4;
+  font-family: "Open-san", sans-serif;
+}
+
+header {
+  background: url("../assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header .transparent {
+  background-color: tansparent !important;
+}
+
+header .p1 {
+  width: 25rem !important;
+}
+
+header #show-case {
+  margin-top: 10rem;
+}
+
+header .text-light {
+  color: #f5f4f4;
+}
+
+header .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .d-flex .right {
+  margin-top: 20rem;
+}
+
+header .btn {
+  border-radius: 0;
+  padding: 0.5rem 2rem !important;
+}
+
+header li {
+  list-style: none;
+}
+
+#about img {
+  height: 100vmin;
+  max-width: 28rem;
+  background-color: #282828;
+}
+
+#about img #about .right_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about img #about .right_about .content {
+  margin-top: 10px;
+}
+
+#gallery {
+  height: 100%;
+}
+
+#gallery #gallery .col-md-4 img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#gallery .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.box {
+  height: 300px;
+  width: 360px;
+  border: 2px solid green;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 4rem;
+}
+
+.contact .left {
+  margin-top: 4rem;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 0.5rem 2rem !important;
+}
+
+.text-secondary {
+  color: #8a8a8a !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+small, .small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .col-md-4 {
+    width: 8.33%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

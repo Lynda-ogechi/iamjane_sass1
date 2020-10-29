@@ -1,0 +1,117 @@
+@import "./style/scss/bootstrap-grid.css";
+body{
+  padding: 0;
+  margin: 0; 
+  background-color: #282828;
+  color: #e5f4f4;
+  font-family: "Open-san", sans-serif;
+}
+header{
+  background: url("../assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  .transparent{
+   background-color: tansparent !important;
+  }
+  .p1{
+    width:25rem !important;
+  }
+  #show-case{
+    margin-top: 10rem;
+  }
+  .text-light {
+    color: #f5f4f4;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: space-between;
+    .right{
+      margin-top: 20rem;
+    }
+ }
+ .btn{
+   border-radius: 0;
+   padding: 0.5rem 2rem !important;
+ }
+ li{
+   list-style: none;
+ }
+}
+#about  img {
+  height: 100vmin;
+  max-width: 28rem;
+  background-color: #282828;
+  #about .right_about{
+    display: flex;
+    .content{
+    margin-top: 10px;
+    }
+}
+}
+
+#gallery {
+  height: 100%;
+  #gallery .col-md-4  img{
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .row {
+    display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+}
+
+
+.box{
+  height: 300px;
+  width: 360px;
+  border: 2px solid green;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+textarea.form-control {
+    height: auto;
+}
+.form-control {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+.contact{
+  margin-top: 4rem;
+  .left{
+    margin-top: 4rem;
+  }
+}
+li{
+list-style: none;
+}
+.btn{
+  border-radius: 0;
+  padding: 0.5rem 2rem !important;
+}
+.text-secondary {
+  color: rgb(138, 138, 138) !important;
+}
+.text-center {
+  text-align: center !important;
+}
+small, .small {
+  font-size: 80%;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px){
+ .col-md-4{
+   width: 8.33%;
+ }
+}
+
+
+
+
